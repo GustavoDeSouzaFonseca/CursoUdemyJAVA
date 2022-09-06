@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class LeituraDeDados {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("================================");
+		System.out.println("=            INÍCIO            =");
+		System.out.println("= Leitura de dados com Scanner =");
+		System.out.println("=______________________________=");
+		System.out.println("=       Scanner em String      =");
+		System.out.println("=Digite o valor de x:          =");
+		String x;
+		x = sc.next();		
+		System.out.println("=Você digitou o valor: " + x + "       =");
+		System.out.println("=______________________________=");
+		System.out.println("=Teste em valor de INT         =");
+		int y;
+		y = sc.nextInt();
+		System.out.println("=Você digitou o valor: " + y + "       =");
+		System.out.println("=______________________________=");
+		System.out.println("=Teste em valor de Double         =");
+		double z;
+		z = sc.nextDouble();
+		System.out.println("=Você digitou o valor: " + z + "       =");
+		
+		sc.close();
+		
+	}
+
+}

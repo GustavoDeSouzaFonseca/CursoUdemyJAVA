@@ -1,0 +1,17 @@
+
+public class TesteProcessamento {
+
+	public static void main(String[] args) {
+		int x;
+		double c,y;
+		c=5;
+		y= 2 * c;
+		
+		
+		
+		
+		
+
+	}
+
+}

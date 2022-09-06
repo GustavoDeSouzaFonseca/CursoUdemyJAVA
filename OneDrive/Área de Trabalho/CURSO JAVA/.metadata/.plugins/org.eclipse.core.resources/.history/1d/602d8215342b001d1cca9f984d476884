@@ -1,0 +1,10 @@
+package br.com.curso.scanner;
+
+public class TesteScannerDois {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

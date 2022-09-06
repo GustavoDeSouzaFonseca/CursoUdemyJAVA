@@ -1,0 +1,22 @@
+package br.com.curso.estrutura.repetitiva;
+
+import java.util.Scanner;
+
+public class While {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		
+		System.out.println("Digite o valor de X: ");
+		int x = sc.nextInt();
+		
+		while(x != 0) {
+			System.out.println("Digite o valor de X: ");
+			x = sc.nextInt();
+		}System.out.println("Programa encerrado!");
+		
+		sc.close();
+	}
+
+}

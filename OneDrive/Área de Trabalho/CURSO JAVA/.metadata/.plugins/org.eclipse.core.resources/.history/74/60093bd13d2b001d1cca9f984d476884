@@ -1,0 +1,29 @@
+package br.com.curso.exercicios.view;
+
+import java.util.Scanner;
+
+public class Ex06 {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		double A,B,C,aTri,aCir,aTrap, aQuad, aRet;
+		
+		System.out.println("Digite o valor de A: ");
+		A = sc.nextDouble();
+		System.out.println("Digite o valor de B: ");
+		B = sc.nextDouble();
+		System.out.println("Digite o valor de C: ");
+		C = sc.nextDouble();
+		
+//		a) a área do triângulo retângulo que tem A por base e C por altura.
+			aTri = (A*C)/2;
+			System.out.printf("TRIÂNGULO: %.3f%n", aTri);
+//		b) a área do círculo de raio C. (pi = 3.14159)
+//		c) a área do trapézio que tem A e B por bases e C por altura.
+//		d) a área do quadrado que tem lado B.
+//		e) a área do retângulo que tem lados A e B.
+		
+	}
+
+}

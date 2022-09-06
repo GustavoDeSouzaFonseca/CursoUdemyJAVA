@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Users\GustaFont\OneDrive\Área de Trabalho\CURSO JAVA\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+3510846143.index
+1988203624.index
+4018718162.index

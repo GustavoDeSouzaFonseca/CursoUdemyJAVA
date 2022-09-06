@@ -1,0 +1,27 @@
+package br.com.curso.estrutura.condicional.ex;
+
+import java.util.Scanner;
+
+public class Ex05 {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int code;
+		double price;
+		String especify;
+		
+		System.out.println("_____________________________");
+		System.out.println("|CODE     ESPECIFY     PRICE|");
+		System.out.println("|=-=-=-=-=-=-=-=-=-=-=-=-=-=|");
+		System.out.println("| 1      HotDog        $4,00|");
+		System.out.println("| 2      X-salad       $4,50|");
+		System.out.println("| 3      X-Bacon       $5,00|");
+		System.out.println("| 4      TorradaSimple $2,00|");
+		System.out.println("| 5      Soda          $1,50|");
+		System.out.println("|___________________________|");
+		
+		sc.close();
+		
+	}
+}

@@ -1,0 +1,25 @@
+package br.com.curso.exercicios.view;
+
+import java.util.Locale;
+
+public class ExFixacao {
+
+	public static void main(String[] args) {
+		String product1 = "Computer";
+		String product2 = "Office desk";
+		
+		int age = 30;
+		int code = 5290;
+		String gender = "F";
+		
+		double price1 = 2100.0;
+		double price2 = 650.50;
+		double measure = 53.234567;
+		Locale.setDefault(Locale.US);
+		double measureUS = 53.234567;
+		
+		System.out.printf("Products:%n %s, which price is ", product1);
+
+	}
+
+}

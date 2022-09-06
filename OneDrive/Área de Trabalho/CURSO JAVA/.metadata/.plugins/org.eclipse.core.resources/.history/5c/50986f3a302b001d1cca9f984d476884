@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class LeituraDeDados {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("================================");
+		System.out.println("            INÍCIO");
+		System.out.println("  Leitura de dados com Scanner");
+		System.out.println("________________________________");
+		
+		String x;
+		x = sc.next();		
+		System.out.println("Você digitou o valor: " + x);
+		
+		sc.close();
+		
+	}
+
+}
